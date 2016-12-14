@@ -1,3 +1,7 @@
+require_relative 'human'
+require_relative 'cat'
+require_relative 'dog'
+
 class SoundFactory
 
   def get_sound(type)
